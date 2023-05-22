@@ -1,0 +1,96 @@
+body{
+    background-image: url("../images/bg1.jpg");
+}
+.container_horizontal{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container_horizontal div{
+  /* border: 5px solid black; */
+  
+}
+.logo{
+  max-width: 100px;
+}
+.logo img{
+  width: 100%;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.slogan p{
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.avatar_bloq , .herramienta_bloq{    
+    border: 5px solid gray;
+    /* margin:10px auto; */
+  border-radius:15px;
+  padding:23px;
+  max-width:220px;
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background:url("../images/bg1.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  
+  
+}
+
+.avatar_bloq .cropped{
+  position: relative;
+  width: 100%;
+     height: 250px;
+     overflow: hidden;
+     border: 5px solid black;
+     border-radius:5px;
+     
+  }
+  .avatar_bloq .cropped img{
+    width: 100%;
+    margin: -25px 0px 0px 0px;
+  }
+  .avatar_bloq .cropped .oculto{
+     position: absolute;
+    width: 100%;   
+    height: 120%; 
+    left: 100%;    
+    transition: all 500ms;
+    z-index: 0;
+ }
+  .avatar_bloq .cropped:hover .oculto {
+    left: 0; 
+    
+  }
+  .herramienta_bloq img{
+    width: 100px;
+  }
+
+  .section-herramientas, .section-foot{
+    margin-top: 3em;
+  }
+  footer{
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+  }
+  footer img {
+    width: 100px;
+
+}

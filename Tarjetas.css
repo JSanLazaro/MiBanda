@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+}
+."avatar Hassan" {
+    border: 5px solid blue;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 13px;
+    width: 220px;
+    background-size: 100% 100%;
+    }
+.images/foto_jesus.jpeg {
+    border: 5px solid blue;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 13px;
+    width: 220px;
+    background-size: 100% 100%;
+}
+.caricatura-nina-sombrero.jpg {
+    border: 5px solid blue;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 13px;
+    width: 220px;
+    background-size: 100% 100%;
+    width: 100
+    ;
+    }
+.caricatura-nina-sombrero:hover {
+    width: 110;
+    heigt: 110;
+}
